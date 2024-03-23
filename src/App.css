@@ -1,0 +1,241 @@
+
+.Enroll-page{
+  padding-top: 91.6px;
+  padding-left: 20px;
+  /* width: 100%; */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  background-color: rgb(250, 246, 241);
+}
+.Enroll-heading{
+  font-family: Yantramanav;
+    font-size: 40px;
+  background-color: rgb(250, 246, 241);
+
+}
+.fieldset{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  background-color: rgb(250, 246, 241);
+}
+.form-row-container{
+  display: flex;
+ 
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+legend{
+  font-weight: bold;
+  font-size: 20px;
+  color: #777;
+}
+.form-control{
+  border-radius: 0;
+  box-shadow: none;
+  height: 36px;
+  display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: rgb(250, 246, 241);
+    background-image: none;
+    border: 1px solid #ccc;
+}
+#amount{
+  background-color: #ccc;
+}
+.form-group{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  font-family: Yantramanav;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: large;
+}
+.Enroll-heading::after{
+  content: "[No registration Fee]";
+  animation: blinker 1s linear infinite;
+    color: #93120d;
+    font-size: 20px;
+}
+@keyframes blinker {
+  50%{
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .form-container{
+    width: 90vw !important;
+  }
+  .Enroll-page{
+    width: 89.5% !important;
+  }
+  /* .dropdown{
+    position: static !important;
+    background-color: white !important;
+  }
+  a:hover{
+    color: black !important;
+    
+  }
+  a{
+    color: #3d9970 !important;
+  } */
+
+  
+  .hamburger1{
+    display: -ms-grid !important;
+    display: grid !important;
+    margin-right: 30px !important;
+  }
+  .menu{
+    display: none !important;
+  }
+  .hide{
+    display: none !important;
+  }
+  .Image-container2{
+      display: none;
+  }
+  .content3-container{
+      width: 80vw !important;
+   
+  }
+  .play-video-content1{
+      font-size: 20px !important;
+  }
+  .play-video-content2{
+      font-size: 10px !important;
+  }
+  .play-video-container{
+      top: 15px !important;
+  left: 15px !important;
+  }
+  .play-video-container1{
+      top: 15px !important;
+      right: 15px !important;
+  }
+  .play-video,.play-video1{
+      height: 135px !important;
+  }
+  .play-circle1{
+      height: 125px !important;
+      width: 125px !important;
+      top: 5px !important;
+     left: 5px !important; 
+  }
+  .play-circle{
+      height: 125px !important;
+      width: 125px !important;
+      top: 5px !important;
+      right: 5px !important;
+  }
+  .Image3{
+      display: none;
+  }
+  .top{
+      flex-direction: column-reverse;
+  }
+  .Top-footer{
+      left: 0px !important;
+      line-height: 30px !important;
+      font-size: 20px !important;
+      padding: 10px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-right: 0px !important;
+  }
+  .play-icon{
+      width: 40px !important;
+      height: 40px !important;
+  }
+  .Image-container1{
+      height:210px;
+      width: 100% !important;
+  }
+  .para{
+      width: 100% !important;
+      margin: 0px 0px 20px 0px;
+      font-size: 12px;
+  }
+  .point-Image{
+      display: none !important;
+  }
+  .blog-heading{
+      font-size: 35px !important;
+      line-height: 50px !important;
+  }
+  .blogs-header {
+      flex-direction: column;
+      gap: 10px;
+  }
+ .About{
+  flex-direction: column;
+  height: auto !important;
+ }
+.About-img{
+  width: 100% !important;
+  height: 275px;
+}
+.About-content{
+  width: auto !important;
+  height: fit-content !important;
+  padding: 10px;
+  gap: 10px !important;
+}
+.Hero-video{
+  width: 100% !important;
+}
+.About-content-content{
+  line-height: normal !important;
+ 
+
+  word-spacing: normal !important;
+}
+  .para-container {
+   left: 0px !important;
+      padding: 10px;
+     width: 95% !important;
+  }
+  .Hero-header{
+      
+      width: 100% !important;
+  }
+  .hero{
+      /* height: 90vh !important; */
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 82.5px !important;
+  }
+  .Hero-header-container{
+      height: auto !important;
+  }
+  .Hero-header-content{
+      font-size:40px !important;
+     line-height: 45px !important;
+     padding: 10px;
+   
+  }
+.Enroll-heading{
+  font-size: 35px;
+}
+.Enroll-heading::after{
+  font-size: 15px ;
+}
+}
